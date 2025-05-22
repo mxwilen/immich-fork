@@ -190,6 +190,7 @@
   });
 </script>
 
+<!-- Here the transparency coloring is put on the thumbnails -->
 <div
   data-asset={asset.id}
   class={[

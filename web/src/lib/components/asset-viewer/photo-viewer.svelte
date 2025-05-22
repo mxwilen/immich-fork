@@ -195,7 +195,7 @@
 <img bind:this={loader} style="display:none" src={imageLoaderUrl} aria-hidden="true" />
 <div
   bind:this={element}
-  class="relative h-full select-none"
+  class="relative h-full select-none bg-white dark:bg-neutral-900"
   bind:clientWidth={containerWidth}
   bind:clientHeight={containerHeight}
 >

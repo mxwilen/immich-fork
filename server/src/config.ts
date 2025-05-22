@@ -281,7 +281,7 @@ export const defaults = Object.freeze<SystemConfig>({
       quality: 80,
     },
     preview: {
-      format: ImageFormat.JPEG,
+      format: ImageFormat.WEBP,
       size: 1440,
       quality: 80,
     },

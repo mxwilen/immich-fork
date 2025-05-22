@@ -98,8 +98,8 @@
             desc={$t('admin.image_format_description')}
             bind:value={config.image.preview.format}
             options={[
-              { value: ImageFormat.Jpeg, text: 'JPEG' },
               { value: ImageFormat.Webp, text: 'WebP' },
+              { value: ImageFormat.Jpeg, text: 'JPEG' },
             ]}
             name="format"
             isEdited={config.image.preview.format !== savedConfig.image.preview.format}
