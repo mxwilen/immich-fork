@@ -4,7 +4,7 @@
 
 ## Q1
 
-> [!note] Question
+> [!NOTE] Question
 > Start by identifying and describing a set of preparatory activities that you believe can be useful to engage in before carrying out code changes to the project. What do you need to learn more about? How can you study the techniques, tools, theoretical underpinnings or algorithms employed in the project before making your own contributions?
 
 - Clone the repo and start the development stack
@@ -15,7 +15,7 @@
 
 ## Q2
 
-> [!note] Question
+> [!NOTE] Question
 > Identifying one or a few minor tasks that are specifically suitable for a new developer who wished to contribute to the project. You should be able to justify why these particular issues are suitable, by referring to their description, conversations with developers in the project or other means. The tasks can involve writing documentation, translating and interface or fixing a minor bug.
 
 Here follows the minor tasks that we have identified when looking at the list of open issues
@@ -23,28 +23,28 @@ Here follows the minor tasks that we have identified when looking at the list of
 ### Issue 1 [#18325]
 
 ![Issue 1 sreenshot](issue1.png)
-> [!important] Issue-info
+> [!IMPORTANT] Issue-info
 > Looks to be a pure-flutter/android change -> no db or server change needed
 
 ### Issue 2 [#18284]
 
 ![Issue 2 sreenshot](issue2.png)
-> [!important] Issue-info
+> [!IMPORTANT] Issue-info
 > Looks to be a simple change in the Dockerfile, and some documentation changes. Should not cover any actual development.
 
 ### Issue 3 [#17757]
 
 ![Issue 3 sreenshot](issue3.png)
-> [!important] Issue-info
+> [!IMPORTANT] Issue-info
 > The problem lies in transparent images not being handled properly by the GUI -> The transparent content gets filled with black instead. This makes it so that black content on a transparent background gets impossible to see when displaying it both in thumbnail and preview sizes in the UI.
 
->[!tip] Potential fix
+>[!TIP] Potential fix
 > We can fix this looking at how png files, or transparent images more specifically, are handled by the app. Both during upload, download and viewing. Maybe there is a default file type that each image gets converted to before the UI can handle the image that is displayed, and that is what causing the problem...?
 
 
 ## Q3
 
-> [!note] Question
+> [!NOTE] Question
 > Choose one of the minor task and resolve it in a feature branch in your own forked repository. (You may submit it to the project as a pull requirest if you want!) Describe in detail how you did go about resolving the issue.
 
 We have decided to fix issue 3 [#17757]. To do this, we need to perform the following steps:
@@ -133,7 +133,7 @@ This causes problems because `JPEG` images cant have transparent content, so on 
 
 ## Q4 & Q5
 
->[!note] Question
+>[!NOTE] Question
 > Give examples of a (set of) final larger contribution(s) that you would like to make to the project based on previous contributions to the project, and currently open issues.
 >
 > Make a time plan for those contributions, taking into account time for learning about new techniques that are relevant, as well as the review process for contributions. Make sure to justify your estimates of review time based on earlier reviews, and include concrete activities that you plan to engage in to learn necessary skills to be able to contribute in the project.
